@@ -11,8 +11,38 @@
         font-family: $base-font-family;
         color: $white;
     }
+
+    .bannerButtons {
+        position: absolute;
+        width: 80px;
+        height: 8px;
+        bottom: 20px;
+        border: none;
+        color: $white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .button {
+        @extend .bannerButtons;
+        left: 150px;
+    }
+    .button2 {
+        @extend .bannerButtons;
+        left: 250px;
+    }
+    .button3 {
+        @extend .bannerButtons;
+        left: 350px;
+    }
+    .button4 {
+        @extend .bannerButtons;
+        left: 450px;
+    }
+
     .bannerImage {
         width: 1200px;
         height: 600px;
     }
 }
+
