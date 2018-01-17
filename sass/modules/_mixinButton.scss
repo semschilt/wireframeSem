@@ -1,0 +1,11 @@
+@mixin bannerButton {
+    position: absolute;
+    width: 80px;
+    height: 8px;
+    bottom: 25px;
+    border: none;
+    color: $white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}

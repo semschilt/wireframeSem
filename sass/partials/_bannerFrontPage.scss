@@ -12,31 +12,20 @@
         color: $white;
     }
 
-    .bannerButtons {
-        position: absolute;
-        width: 80px;
-        height: 8px;
-        bottom: 20px;
-        border: none;
-        color: $white;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
     .button {
-        @extend .bannerButtons;
+        @include bannerButton;
         left: 150px;
     }
     .button2 {
-        @extend .bannerButtons;
+        @include bannerButton;
         left: 250px;
     }
     .button3 {
-        @extend .bannerButtons;
+        @include bannerButton;
         left: 350px;
     }
     .button4 {
-        @extend .bannerButtons;
+        @include bannerButton;
         left: 450px;
     }
 
