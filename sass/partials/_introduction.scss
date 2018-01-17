@@ -1,0 +1,71 @@
+.introduction {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    
+    h2 {
+        font-size: $header2-font-size;
+        font-weight: $regular;
+        font-family: $base-font-family;
+    }
+}
+
+.containerAboutMe {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+
+    .introText {
+        justify-content: flex-start;
+        width: 50%;
+        font-family: $base-font-family;
+        font-weight: $light;
+        text-align: left;
+    }
+}
+
+.iconsCollage {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 30%;
+    width: 20%;
+
+    .laravelIcon {
+        width: 50px;
+        height: 50px;
+        align-self: flex-start;
+        background-color: $red;
+    }
+    .html5Icon {
+        width: 50px;
+        height: 50px;
+        align-self: flex-end;
+        background-color: $blue;
+    }
+    .sassIcon {
+        width: 50px;
+        height: 50px;
+        align-self: flex-start;
+        background-color: $red;
+    }
+    .phpIcon {
+        width: 50px;
+        height: 50px;
+        align-self: flex-end;
+        background-color: $blue;
+    }
+    .vueIcon {
+        width: 50px;
+        height: 50px;
+        align-self: flex-start;
+        background-color: $red;
+    }
+    .webpackIcon {
+        width: 50px;
+        height: 50px;
+        align-self: flex-end;
+        background-color: $blue;
+    }
+}

@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .listItemRight {
+        list-style-type: none;
+        justify-content: flex-start;
+        a {
+            align-content: space-around;
+            text-decoration: none;
+        }
+    }
+    .listItemLeft {
+        list-style-type: none;
+        justify-content: flex-end;
+        a {
+            text-decoration: none;
+        }
+    }
+}
