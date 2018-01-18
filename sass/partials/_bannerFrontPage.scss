@@ -1,10 +1,10 @@
 .bannerFrontPage {
     position: relative;
     text-align: center;
-    height: 90vh;
+    margin-top: 50px;
     h1 {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: $header-font-size;
@@ -15,24 +15,24 @@
 
     .button {
         @include bannerButton;
-        left: 150px;
+        left: 120px;
     }
     .button2 {
         @include bannerButton;
-        left: 250px;
+        left: 220px;
     }
     .button3 {
         @include bannerButton;
-        left: 350px;
+        left: 320px;
     }
     .button4 {
         @include bannerButton;
-        left: 450px;
+        left: 420px;
     }
 
     .bannerImage {
-        width: 1200px;
-        height: 600px;
+        width: 1100px;
+        height: 450px;
     }
 }
 
